@@ -60,6 +60,8 @@ Every tag below is appearing **for the first time** in our crash course. Don't w
 | 13 | `<ul>` | Creates an unordered (bulleted) list | A menu card at a restaurant — a list of items |
 | 14 | `<li>` | A single item inside a list | One dish on the menu card |
 | 15 | `<script>` | Embeds or links JavaScript code | The electrical wiring of a building — invisible but makes things work |
+| 16 | `<h1>` | The largest heading — main title of the page | The banner headline of a newspaper |
+| 17 | `<p>` | A paragraph of text content | A single paragraph in your BCA textbook |
 
 ---
 
@@ -806,6 +808,11 @@ Here's a comprehensive summary of **every** HTML tag and Bootstrap class introdu
 | `text-center` | Utility | Centers text horizontally |
 | `mt-5` | Spacing | Top margin of 3rem |
 | `text-muted` | Utility | Makes text grey/subtle (#6c757d) |
+| `badge` | Component | Adds a small label/counter badge (pill-shaped highlight) |
+| `bg-warning` | Background | Yellow/amber background color (#ffc107) |
+| `text-dark` | Utility | Sets text color to dark/black (#212529) |
+| `navbar-light` | Color Scheme | Dark text/links for light backgrounds (opposite of `navbar-dark`) |
+| `bg-light` | Background | Light/white background color (#f8f9fa) |
 
 ### HTML Attributes
 
@@ -824,6 +831,9 @@ Here's a comprehensive summary of **every** HTML tag and Bootstrap class introdu
 | `class` | Various | Assigns CSS classes for styling |
 | `role="button"` | `<a>` | Tells screen readers this link acts as a button |
 | `aria-current="page"` | `<a>` | Tells screen readers this is the current page |
+| `content` | `<meta>` | Provides the value for `name` or `http-equiv` meta attributes |
+| `style` | Various | Applies inline CSS directly to an element (e.g., `padding-top: 80px`) |
+| `target="_blank"` | `<a>` | Opens the linked page in a new browser tab |
 
 ---
 
@@ -886,6 +896,11 @@ Test your understanding with these challenges. Try each one on your own before l
 ```html
 <a class="navbar-brand" href="#">BCA 2025-26 <span class="badge bg-warning text-dark">MU</span></a>
 ```
+
+> 📌 **First Time Seeing `badge`, `bg-warning`, and `text-dark`?**
+> - `badge` adds a small pill-shaped highlight label — great for notifications, counters, or short tags
+> - `bg-warning` sets a yellow/amber background (#ffc107) — one of Bootstrap's contextual background colors
+> - `text-dark` forces the text color to dark/black (#212529) — needed here because badge text defaults to white, which is unreadable on a yellow background
 
 ---
 
